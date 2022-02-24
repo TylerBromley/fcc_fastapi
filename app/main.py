@@ -28,7 +28,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 async def root():
-    return {"message": "welcome to my api!!!"}
+    return {"message": "This shit is working"}
 
 
 #####DATABASE CONNECTION#####
