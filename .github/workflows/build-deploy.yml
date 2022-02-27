@@ -91,7 +91,7 @@ jobs:
         # cd /app/src/
         # git pull
       - name: deploy to ubuntu server
-        uses:  appleboy/shh-actioin@master
+        uses:  appleboy/shh-action@master
         with:
           host: ${{ secrets.PROD_HOST }}
           username: ${{ secrets.PROD_USERNAME }}
